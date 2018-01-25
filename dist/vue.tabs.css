@@ -1,0 +1,6 @@
+/*!
+ * vue.tabs.js
+ * (c) 2017-2018 yuw
+ * Released under the MIT License.
+ */
+.vue-tab-wrap{position:relative;overflow:hidden;padding-top:20px}.vue-tab-wrap .vue-tab-item{float:left;padding:0 10px;margin:0 10px;height:40px;box-sizing:border-box;line-height:40px;display:inline-block;list-style:none;font-size:14px;font-weight:500;color:#303133;position:relative;cursor:pointer}.vue-tab-wrap .vue-tab-item.disabled{color:rgba(0,0,0,.25)}.vue-tab-wrap .vue-tab-item.active{color:#409eff}.vue-tab-wrap .vue-tab-item:first-child{margin-left:0}.vue-tab-wrap .vue-tab-item:last-child{margin-right:0}.vue-tab-wrap:after{content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;background-color:#e4e7ed;z-index:1}.vue-tab-wrap .vue-tab-active-bar{position:absolute;bottom:0;left:0;height:2px;background-color:#409eff;z-index:2;transition:transform .3s cubic-bezier(.645,.045,.355,1);list-style:none}
